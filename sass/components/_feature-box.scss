@@ -13,13 +13,11 @@
         display: inline-block;
         background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8)), url('../../img/nat-4.jpg');
         -webkit-background-clip: text;
+        background-clip: text;
         color: transparent;
     }
 
     &:hover {
         transform: translateY(-3rem) scale(1.20) skewY(7deg);
-    }
-    &__text {
-
     }
 }
